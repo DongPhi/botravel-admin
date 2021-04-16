@@ -1,0 +1,34 @@
+.bt-site-header{
+    background: #fff;
+    position: relative;
+    padding: 3px 0;
+    display: flex;
+}
+.bt-site-heade .container{
+    position: relative;
+}
+.logo, .logo:hover{
+    text-decoration: none;
+    color: #17a2b8;
+    font-size: 21px;
+}
+
+.bt-site-header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bt-site-header__right a{
+    text-decoration: none;
+    color: #17a2b8;
+}
+.bt-page-user a{
+    font-size: 21px;
+}
+.bt-page-lang a img{
+    width: 25px;
+    margin: 0 5px 3px 0;
+    height: auto;
+}

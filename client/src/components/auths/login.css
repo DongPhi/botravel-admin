@@ -1,0 +1,19 @@
+.login-wrapper{
+    background:#fff;
+    padding: 100px 0;
+    margin: 7% 25%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-wrapper h1{
+    font-size: 34px;
+}
+.login-wrapper input{
+    padding: 5px;
+    width: 30%;
+}
+.text-login{
+    margin-bottom:-2px;
+}
+.ml35{
+    margin-left: 35%;
+}

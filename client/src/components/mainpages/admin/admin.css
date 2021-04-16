@@ -1,0 +1,110 @@
+.bt-page-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bt-page-dashboard{
+    padding: 20px 0;
+}
+.bt-page-dashboard--wellcome{
+    margin-bottom: 20px;
+}
+.title{
+    font-size: 20px;
+}
+.range-date{
+    background: #fff;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    position: relative;
+    min-width: 240px;
+    height: 36px; 
+}
+.input-range-date{
+    background: transparent;
+    padding-left: 45px;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline:none
+}
+.range-date i{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+.range-date i.fa-sort{
+    right: 15px;
+    left: auto;
+    font-size: 13px;
+}
+.kv-page-dashboard--wellcome .kv-page-cards {
+    height: 100%;
+    min-height: 188px;
+}
+.bt-page-cards{
+    padding-bottom:20px;
+}
+.bt-page-cards.card{
+    background-color: #fff;
+    border:none;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    background-clip: padding-box;
+}
+.card{
+    position: relative;
+}
+.card-body{
+    padding: 24px;
+}
+.wellcome-title{
+    font-size:  24px;
+    margin: 0 0 8px;
+    color: #17a2b8;
+    line-height: normal;
+}
+.welcome-content{
+    max-width: 440px;
+    margin: 0;
+    line-height: 18px;
+}
+.wellcome-container img{
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    width: 33%;
+    height: auto;
+}
+.pageviews-wrapper {
+    display: flex;
+    align-items: center;
+}
+.pageviews-icon{
+    background: #17a2b8;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    font-size: 24px;
+    margin: 0 15px 0 0;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+.pageviews-info {
+    flex: 1;
+}
+.pageviews-title {
+    color: #5f6368;
+    font-weight: 700;
+    margin: 0 0 6px;
+    line-height: normal;
+    font-size: 13px;
+}
+.pageviews-number {
+    font-size: 20px;
+    color: #17a2b8;
+    font-weight: 700;
+}
