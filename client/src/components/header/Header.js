@@ -1,4 +1,5 @@
 import React,{useContext} from 'react';
+import {Link} from 'react-router-dom';
 import {GlobalState} from '../../GlobalState';
 import VIE from './icons/vietnam.png';
 
@@ -9,7 +10,7 @@ function Header() {
             <div className="container">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-12 col-sm-3">
-                        <a href="/admin" alt="" className="logo">Hello BOtravel</a>
+                        <a href="/admin" alt="" className="logo">BOtravel</a>
                     </div>
                     <div className="col-12 col-sm-9">
                         <div className="bt-site-header__right">

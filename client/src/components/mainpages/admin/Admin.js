@@ -1,7 +1,9 @@
-import React from 'react';
-import WellcomeDataboard from './images/wellcome-databoard.png'
+import React, { useState } from 'react';
+import WellcomeDataboard from './images/wellcome-databoard.png';
 
 function Admin() {
+    const today  = new Date();
+    const options = {  year: 'numeric', month: '2-digit', day: '2-digit' };
     return (
         <div className="bt-page-container">
             <div className="bt-page-dashboard">
@@ -12,7 +14,7 @@ function Admin() {
                         </div>
                         <div className="col-3 d-flex align-items-end">
                             <div className="range-date">
-                                <input type="text" className="input-range-date" name="daterange" value="16/04/2021 - 16/04/2021" />
+                                <input id="reportrange" type="text" className="input-range-date" />
                                 <i class="fa fa-calendar icon-calendar" aria-hidden="true"></i>
                                 <i class="fa fa-sort" aria-hidden="true"></i>
                             </div>
@@ -72,7 +74,7 @@ function Admin() {
                         </div>
                     </div>
                     <div className="col-xl-5">
-                        
+                        <div className=""></div>
                     </div>
                 </div>
             </div>

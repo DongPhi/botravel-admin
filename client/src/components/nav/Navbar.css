@@ -21,7 +21,7 @@
     font-weight: 550;
     white-space: nowrap;
 }
-.nav-item .nav-link.active{
+.nav-item.active{
     background: #098699
 }
 .nav-item .nav-link i{

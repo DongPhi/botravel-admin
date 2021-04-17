@@ -10,11 +10,11 @@ function Navbar() {
                 <div className="bt-main-menu">
                     <nav id="site-navigation">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <NavLink to="/admin" className="nav-link">
+                            <li className="nav-item active">
+                                <a href="/admin" className="nav-link">
                                     <i class="fa fa-area-chart" aria-hidden="true"></i>
                                     <span className="link-title">Tổng quan</span> 
-                                </NavLink>
+                                </a>
                             </li>
                             <li className="nav-item">
                                 <NavLink to="/tour" className="nav-link">
