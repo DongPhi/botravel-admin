@@ -109,3 +109,61 @@
     color: #17a2b8;
     font-weight: 700;
 }
+.bt-page-dashboard--boards .bt-page-cards {
+    height: 100%;
+}
+.bt-page-dashboard--boards .card-body {
+    padding: 0;
+}
+.boards-order--line {
+    padding: 16px 25px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.boards-order--line:last-child {
+    border-bottom: none;
+    margin-bottom: -9px;
+}
+.boards-order--wrapper {
+    position: relative;
+    padding: 0 0 0 55px;
+    display: flex;
+    align-items: center;
+}
+.boards-order--icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+.boards-order--description {
+    font-weight: 700;
+    margin: 0;
+    flex: 1;
+}
+.boards-order--number {
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.boards-order--makeshift .boards-order--icon {
+    background-color: #747474;
+}
+.boards-order--confirmed .boards-order--icon {
+    background-color: #05b0e7;
+}
+.boards-order--deposit .boards-order--icon{
+    background-color: #f8aa09;
+}
+.boards-order--complete .boards-order--icon {
+    background-color: #4bae59;
+}
+.boards-order--cancelled .boards-order--icon {
+    background-color: #f84b5e;
+}

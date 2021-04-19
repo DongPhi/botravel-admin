@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import WellcomeDataboard from './images/wellcome-databoard.png';
 
 function Admin() {
-    const today  = new Date();
-    const options = {  year: 'numeric', month: '2-digit', day: '2-digit' };
     return (
         <div className="bt-page-container">
             <div className="bt-page-dashboard">
@@ -12,7 +10,7 @@ function Admin() {
                         <div className="col-9 d-flex align-items-center">
                             <strong className="title">Tổng quan</strong>
                         </div>
-                        <div className="col-3 d-flex align-items-end">
+                        <div className="col-3 d-flex align-items-center justify-content-end">
                             <div className="range-date">
                                 <input id="reportrange" type="text" className="input-range-date" />
                                 <i class="fa fa-calendar icon-calendar" aria-hidden="true"></i>
@@ -74,7 +72,59 @@ function Admin() {
                         </div>
                     </div>
                     <div className="col-xl-5">
-                        <div className=""></div>
+                        <div className="bt-page-dashboard--boards">
+                            <div className="bt-page-cards card">
+                                <div className="card-body">
+                                    <div className="boards-order--lst">
+                                        <div className="boards-order--line order-makeshift boards-order--makeshift">
+                                            <div className="boards-order--wrapper">
+                                                <div className="boards-order--icon">
+                                                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="boards-order--description">Đơn đang đặt</div>
+                                                <strong className="board-number boards-order--number">250</strong>
+                                            </div>
+                                        </div>
+                                        <div className="boards-order--line order-confirmed boards-order--confirmed">
+                                            <div className="boards-order--wrapper">
+                                                <div className="boards-order--icon">
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="boards-order--description">Đã xác nhận</div>
+                                                <strong className="board-number boards-order--number">100</strong>
+                                            </div>
+                                        </div>
+                                        <div className="boards-order--line order-deposit boards-order--deposit">
+                                            <div className="boards-order--wrapper">
+                                                <div className="boards-order--icon">
+                                                    <i class="fa fa-gavel" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="boards-order--description">Đã đặt cọc</div>
+                                                <strong className="board-number boards-order--number">50</strong>
+                                            </div>
+                                        </div>
+                                        <div className="boards-order--line order-complete boards-order--complete">
+                                            <div className="boards-order--wrapper">
+                                                <div className="boards-order--icon">
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="boards-order--description">Đã hoàn thành</div>
+                                                <strong className="board-number boards-order--number">40</strong>
+                                            </div>
+                                        </div>
+                                        <div className="boards-order--line order-cancelled boards-order--cancelled">
+                                            <div className="boards-order--wrapper">
+                                                <div className="boards-order--icon">
+                                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                                </div>
+                                                <div className="boards-order--description">Đã huỷ</div>
+                                                <strong className="board-number boards-order--number">10</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
