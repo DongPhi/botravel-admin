@@ -81,6 +81,7 @@
 .pageviews-wrapper {
     display: flex;
     align-items: center;
+    margin-bottom: -9px
 }
 .pageviews-icon{
     background: #17a2b8;
@@ -121,7 +122,7 @@
 }
 .boards-order--line:last-child {
     border-bottom: none;
-    margin-bottom: -9px;
+    margin-bottom: -20px;
 }
 .boards-order--wrapper {
     position: relative;
@@ -151,7 +152,6 @@
     font-size: 18px;
     margin-left: auto;
 }
-
 .boards-order--makeshift .boards-order--icon {
     background-color: #747474;
 }

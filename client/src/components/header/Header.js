@@ -1,5 +1,4 @@
 import React,{useContext} from 'react';
-import {Link} from 'react-router-dom';
 import {GlobalState} from '../../GlobalState';
 import VIE from './icons/vietnam.png';
 
@@ -23,8 +22,14 @@ function Header() {
                             <div className="bt-page-notifi mr-3">
                                 <a href="/" alt=""><i class="fa fa-bell-o" aria-hidden="true"></i> </a>
                             </div>
-                            <div className="bt-page-user">
-                                <a href="/" alt=""><i class="fa fa-user-circle-o" aria-hidden="true"></i> </a>
+                            
+                            <div className="bt-page-user btn-group" aria-labelledby="dropdownMenuLink">
+                                <a href="/" alt="" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o" aria-hidden="true"></i> </a>
+                                <div className="dropdown-menu dropdown-menu-right">
+                                    <a className="dropdown-item" href="#">Tài khoản</a>
+                                    <a className="dropdown-item" href="#">Đăng xuất</a>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
